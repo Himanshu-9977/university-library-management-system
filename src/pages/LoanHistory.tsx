@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Search } from 'lucide-react';
 import axios from 'axios';
 import { useAuth } from '../contexts/AuthContext';
-import { useToast } from '@/components/ui/use-toast';
+import { useToast } from '@/hooks/use-toast';
 
 interface Loan {
   _id: string;
